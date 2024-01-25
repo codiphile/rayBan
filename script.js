@@ -31,11 +31,10 @@ Shery.imageEffect("#back", {
     noise_height: { value: 0.5, range: [0, 2] },
     noise_scale: { value: 10, range: [0, 100] },
   },
-  //   debug: true,
+  //debug: true,
   gooey: true,
 });
 var elems = document.querySelectorAll(".elem");
-
 elems.forEach(function (elem) {
   var h1s = elem.querySelectorAll("h1");
   var index = 0;
